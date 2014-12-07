@@ -1,0 +1,1 @@
+application.qr = require('qr-image');

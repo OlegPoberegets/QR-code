@@ -1,0 +1,23 @@
+<h2>Модуль призначений для генерування та збереження QR - кодів</h2>
+<br>
+<div id="input_form" >
+    <input type="text" id="text_encode" name="to_encode"><br>
+    <button id="submit_qr">Submit</button>
+</div>
+<br>
+<p>Виберіть формат для завантаження</p>
+<br>
+<form id="download_qr" method="post" enctype="multipart/form-data" action="/qr-code/download.json">
+    <input id="hidden_mes" type="hidden" name="message">
+    <div class="radio_button">
+        <input type="radio" name="file_type" value="png" checked>PNG
+        <input type="radio" name="file_type" value="svg">SVG
+        <input type="radio" name="file_type" value="pdf">PDF
+    </div>
+    <br>
+    <button>Download</button>
+</form>
+<br>
+<div >
+    <img id="qr-image">
+</div>

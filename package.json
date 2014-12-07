@@ -1,0 +1,29 @@
+{
+  "name": "impress-qr",
+  "version": "0.1.1",
+  "description": "Impress AS QR Code Generator",
+  "main": "server.js",
+  "dependencies": {
+    "impress": "0.1.x",
+    "qr-image": "2.0.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlegPoberegets/QR-code"
+  },
+  "keywords": [
+    "qr",
+    "impress"
+  ],
+  "author": "Oleg Poberegets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlegPoberegets/QR-code/issues"
+  },
+  "homepage": "https://github.com/OlegPoberegets/QR-code"
+}
